@@ -3,7 +3,7 @@
 
 <%--
   Created by IntelliJ IDEA.
-  User: Dinexpod
+  User: Ilya
   Date: 31.01.2019
   Time: 18:53
   To change this template use File | Settings | File Templates.
@@ -55,29 +55,6 @@
         </tr>
     </c:forEach>
 </table>
-
-<%--<script>--%>
-<%--//delete--%>
-<%--$(".deleteForm").submit(function (event) {--%>
-<%--event.preventDefault();--%>
-<%--var form = $(this);--%>
-<%--var id = form.find('button[name="delete"]').val();--%>
-<%--var url = '/developer/' + id;--%>
-<%--var line = form.parent('td').parent('tr');--%>
-<%--$.ajax({--%>
-<%--type: 'DELETE',--%>
-<%--url: url,--%>
-<%--contentType: 'application/x-www-form-urlencoded',--%>
-<%--data: "id=" + id,--%>
-<%--success: function () {--%>
-<%--line.remove();--%>
-<%--},--%>
-<%--error: function (xhr, status, error) {--%>
-<%--alert(error);--%>
-<%--}--%>
-<%--});--%>
-<%--});--%>
-<%--</script>--%>
 
 </body>
 </html>
