@@ -20,7 +20,7 @@
 
     Developer submit!
 </h1>
-<h2>
+
     <table>
         <tr>
             <td>Id:</td>
@@ -39,6 +39,6 @@
             <td>${developer.developerSalary}</td>
         </tr>
     </table>
-</h2>
+
 </body>
 </html>
